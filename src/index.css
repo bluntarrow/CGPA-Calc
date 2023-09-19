@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+@layer components {
+	input, select {
+		@apply w-full bg-zinc-50 p-2 rounded outline-none border-2 border-zinc-300
+	}
+}
